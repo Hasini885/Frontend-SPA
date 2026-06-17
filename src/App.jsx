@@ -1,13 +1,15 @@
 import Card from "./Card.jsx";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 import "./App.css";
 
 function App(){
   return (
     <div className="app-container">
-      <header className="header">
-        <h1>Welcome to My Website</h1>
-        <p>A simple landing page built with React + Vite</p>
-      </header>
+      <Header 
+        title="Welcome to My Website" 
+        subtitle="A simple landing page built with React + Vite"
+      />
 
       <section className="hero">
         <h2>Featured Services</h2>
@@ -27,9 +29,10 @@ function App(){
         />
       </section>
 
-      <footer className="footer">
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-      </footer>
+      <Footer 
+        year="2024" 
+        companyName="My Website"
+      />
     </div>
   );
 }
