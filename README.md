@@ -1,16 +1,64 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My Landing Page
 
-Currently, two official plugins are available:
+This is a simple landing page I built with React and Vite. Nothing fancy - just a Header, Footer, and some Service Cards with nice styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Quick Start
 
-## React Compiler
+```bash
+# Install and run
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+That's it! Opens at `http://localhost:5173`
 
-## Expanding the ESLint configuration
+## What's Inside?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Header** - Welcome message at the top
+- **Card Components** - Shows Web Development and UI/UX Design services
+- **Footer** - Links and copyright info
+- **Responsive Design** - Works on mobile too
+- **No Hooks** - Just props, keeps it simple
+
+## Files
+
+- `src/App.jsx` - Main page
+- `src/App.css` - Styling
+- `src/Header.jsx`, `src/Footer.jsx`, `src/Card.jsx` - Components
+- `public/` - Put your images here
+
+## Customize
+
+**Change the title:**
+```jsx
+<Header 
+  title="Your Title" 
+  subtitle="Your Subtitle"
+/>
+```
+
+**Add more cards:**
+```jsx
+<Card 
+  title="Service" 
+  content="Description" 
+  image="/image.jpg" 
+/>
+```
+
+**Add images:**
+1. Drop files in `public/` folder
+2. Use `/filename.jpg` in Card component
+
+## Build & Deploy
+
+```bash
+npm run build    # Create production version
+```
+
+Deploy to Vercel, Netlify, or GitHub Pages.
+
+---
+
+Made with React ⚛️ + Vite ⚡
