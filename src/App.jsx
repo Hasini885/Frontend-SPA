@@ -20,12 +20,12 @@ function App(){
         <Card 
           title="Web Development" 
           content="Build responsive and modern websites with the latest technologies. Create engaging user experiences with clean code and best practices." 
-          image="https://via.placeholder.com/400x300?text=Web+Development" 
+          image="https://blog.zegocloud.com/wp-content/uploads/2024/03/types-of-web-development-services.jpg" 
         />
         <Card 
           title="UI/UX Design" 
           content="Design beautiful and intuitive user interfaces. Focus on user experience to create products that users love and enjoy using." 
-          image="https://via.placeholder.com/400x300?text=UI+UX+Design" 
+          image="https://admin.wac.co/uploads/Blog%20Media/ux_ui-01-3_5915c7e99f7fc2e0.jpg" 
         />
       </section>
 
