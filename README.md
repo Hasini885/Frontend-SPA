@@ -3,6 +3,9 @@
 
 This is a simple landing page I built with React and Vite. Nothing fancy - just a Header, Footer, and some Service Cards with nice styling.
 
+<img width="942" height="893" alt="image" src="https://github.com/user-attachments/assets/3e9dab77-0c2c-40b7-abe1-9ca37595f2e7" />
+
+
 ## Quick Start
 
 ```bash
@@ -60,5 +63,3 @@ npm run build    # Create production version
 Deploy to Vercel, Netlify, or GitHub Pages.
 
 ---
-
-Made with React ⚛️ + Vite ⚡
